@@ -13,8 +13,33 @@
     </style>
 </head>
 <body>
-    <h1>NEOPAULI</h1>
-    <h1>cipher</h1>
-    <p>.<The chifer/p>
+    <h1>Bem-vindo ao TIBLLEC</h1>
+    <p>Este é um site de exemplo.</p>
+
+    <input type="text" id="palavraChave" placeholder="Digite uma palavra-chave">
+
+    <script>
+        document.getElementById("palavraChave").addEventListener("keypress", function(event) {
+            if (event.key === "Enter") {
+                const palavra = event.target.value.toUpperCase();
+                switch (palavra) {
+                    case "CELLBIT":
+                        window.location.href = "https://drive.google.com/drive/folders/1XNY3NhXVvUOLPQYamQYYtENjBqtO8ZHn?usp=drive_link";
+                        break;
+                    case "OAFFEBS":
+                        window.location.href = "COLOQUE_AQUI_O_LINK_DO_MEDIAFIRE";
+                        break;
+                    case "ADMIN":
+                        window.location.href = "https://youtu.be/6d0YAXXFukM?si=BiOM9bYDphWd-fh-";
+                        break;
+                    case "GEOMETRY DASH":
+                        window.location.href = "COLOQUE_AQUI_O_LINK_DA_PAGINA_DO_STEAM";
+                        break;
+                    default:
+                        alert("Try again !");
+                }
+            }
+        });
+    </script>
 </body>
 </html>
