@@ -46,3 +46,61 @@
     </script>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIBLLEC</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            overflow: hidden; /* Para evitar rolagem enquanto o pop-up está visível */
+        }
+        .popup {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8); /* Fundo escuro com opacidade */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-align: center;
+            z-index: 1000; /* Garantir que o pop-up fique na frente de tudo */
+        }
+        .popup-content {
+            background: #333; /* Cor de fundo do conteúdo do pop-up */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        .popup a {
+            display: inline-block;
+            margin-top: 20px;
+            color: #4CAF50; /* Cor do link */
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .popup a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="popup">
+        <div class="popup-content">
+            <h1>Site inutilizado</h1>
+            <p>Essa página web de propriedade da C.I.B agora está fechada pois alteramos para um provedor mais seguro.</p>
+            <p>Clique no link a seguir para prosseguir para o site oficial da C.I.B:</p>
+            <a href="cibsite.vercel.app">Site Oficial da C.I.B</a>
+        </div>
+    </div>
+</body>
+</html>
