@@ -3,15 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TIBLLEC</title>
+    <title>Teste de Pop-up</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            text-align: center;
             margin: 0;
             padding: 0;
-            height: 100vh;
-            overflow: hidden; /* Para evitar rolagem enquanto o pop-up está visível */
+            font-family: Arial, sans-serif;
+            overflow: hidden; /* Evita rolagem */
         }
         .popup {
             position: fixed;
@@ -25,7 +23,7 @@
             justify-content: center;
             color: #fff;
             text-align: center;
-            z-index: 1000; /* Garantir que o pop-up fique na frente de tudo */
+            z-index: 1000; /* Garante que o pop-up fique na frente de tudo */
         }
         .popup-content {
             background: #333; /* Cor de fundo do conteúdo do pop-up */
@@ -46,46 +44,12 @@
     </style>
 </head>
 <body>
-    <!-- Código original do site -->
-    <h1>NEOPAULI</h1>
-    <p>chiper</p>
-
-    <input type="text" id="palavraChave" placeholder="code">
-
-    <script>
-        document.getElementById("palavraChave").addEventListener("keypress", function(event) {
-            if (event.key === "Enter") {
-                const palavra = event.target.value.toUpperCase();
-                switch (palavra) {
-                    case "CELLBIT":
-                        window.location.href = "https://drive.google.com/drive/folders/1XNY3NhXVvUOLPQYamQYYtENjBqtO8ZHn?usp=drive_link";
-                        break;
-                    case "OAFFEBS":
-                        window.location.href = "https://paulineodplayer1.github.io/arquivodoarg/";
-                        break;
-                    case "ADMIN":
-                        window.location.href = "https://youtu.be/6d0YAXXFukM?si=BiOM9bYDphWd-fh-";
-                        break;
-                    case "GEOMETRY DASH":
-                        window.location.href = "https://store.steampowered.com/app/322170/Geometry_Dash/";
-                        break;
-                    case "NEOPAULI":
-                        window.location.href = "https://context.reverso.net/traducao/ingles-portugues/nice+try";
-                        break;
-                    default:
-                        alert("no");
-                }
-            }
-        });
-    </script>
-
-    <!-- Código do pop-up para desativar o site -->
     <div class="popup">
         <div class="popup-content">
             <h1>Site inutilizado</h1>
             <p>Essa página web de propriedade da C.I.B agora está fechada pois alteramos para um provedor mais seguro.</p>
             <p>Clique no link a seguir para prosseguir para o site oficial da C.I.B:</p>
-            <a href="https://cibsite.vercel.app">Site Oficial da C.I.B</a>
+            <a href="cibsite.vercel.app">Site Oficial da C.I.B</a>
         </div>
     </div>
 </body>
