@@ -8,54 +8,6 @@
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            margin-top: 50px;
-        }
-    </style>
-</head>
-<body>
-    <h1>NEOPAULI</h1>
-    <p>chiper/p>
-
-    <input type="text" id="palavraChave" placeholder="code">
-
-    <script>
-        document.getElementById("palavraChave").addEventListener("keypress", function(event) {
-            if (event.key === "Enter") {
-                const palavra = event.target.value.toUpperCase();
-                switch (palavra) {
-                    case "CELLBIT":
-                        window.location.href = "https://drive.google.com/drive/folders/1XNY3NhXVvUOLPQYamQYYtENjBqtO8ZHn?usp=drive_link";
-                        break;
-                    case "OAFFEBS":
-                        window.location.href = "https://paulineodplayer1.github.io/arquivodoarg/";
-                        break;
-                    case "ADMIN":
-                        window.location.href = "https://youtu.be/6d0YAXXFukM?si=BiOM9bYDphWd-fh-";
-                        break;
-                    case "GEOMETRY DASH":
-                        window.location.href = "https://store.steampowered.com/app/322170/Geometry_Dash/";
-                        break;
-                        case "NEOPAULI":
-                        window.location.href = "https://context.reverso.net/traducao/ingles-portugues/nice+try";
-                        break;
-                    default:
-                        alert("no");
-                }
-            }
-        });
-    </script>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TIBLLEC</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
             margin: 0;
             padding: 0;
             height: 100vh;
@@ -94,12 +46,46 @@
     </style>
 </head>
 <body>
+    <!-- Código original do site -->
+    <h1>NEOPAULI</h1>
+    <p>chiper</p>
+
+    <input type="text" id="palavraChave" placeholder="code">
+
+    <script>
+        document.getElementById("palavraChave").addEventListener("keypress", function(event) {
+            if (event.key === "Enter") {
+                const palavra = event.target.value.toUpperCase();
+                switch (palavra) {
+                    case "CELLBIT":
+                        window.location.href = "https://drive.google.com/drive/folders/1XNY3NhXVvUOLPQYamQYYtENjBqtO8ZHn?usp=drive_link";
+                        break;
+                    case "OAFFEBS":
+                        window.location.href = "https://paulineodplayer1.github.io/arquivodoarg/";
+                        break;
+                    case "ADMIN":
+                        window.location.href = "https://youtu.be/6d0YAXXFukM?si=BiOM9bYDphWd-fh-";
+                        break;
+                    case "GEOMETRY DASH":
+                        window.location.href = "https://store.steampowered.com/app/322170/Geometry_Dash/";
+                        break;
+                    case "NEOPAULI":
+                        window.location.href = "https://context.reverso.net/traducao/ingles-portugues/nice+try";
+                        break;
+                    default:
+                        alert("no");
+                }
+            }
+        });
+    </script>
+
+    <!-- Código do pop-up para desativar o site -->
     <div class="popup">
         <div class="popup-content">
             <h1>Site inutilizado</h1>
             <p>Essa página web de propriedade da C.I.B agora está fechada pois alteramos para um provedor mais seguro.</p>
             <p>Clique no link a seguir para prosseguir para o site oficial da C.I.B:</p>
-            <a href="cibsite.vercel.app">Site Oficial da C.I.B</a>
+            <a href="https://cibsite.vercel.app">Site Oficial da C.I.B</a>
         </div>
     </div>
 </body>
